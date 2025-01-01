@@ -20,6 +20,9 @@
         </p>
       </div>
     </div>
+    <div>
+      <TestSignal />
+    </div>
     <SelectData :data-set="decodedProvinceData" v-if="showSelect" />
     <div v-else>Please Wait..</div>
     <div class="pt-12 pb-12">
